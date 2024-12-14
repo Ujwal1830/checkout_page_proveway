@@ -1,0 +1,108 @@
+.checkout-wrapper {
+    width: 462px;
+    height: 603px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #FFFFFF;
+    padding: 60px;
+}
+@media screen and (max-width: 468px) {
+    .checkout-wrapper {
+        padding: 30px;
+    }
+}
+.checkout-title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.checkout-title-decore {
+    flex: 1;
+    border-top: 1px solid #C8C8C8;
+}
+.checkout-title-span {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF6B82;
+    white-space: nowrap;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.checkoout-footer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.checkout-totalamount-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkout-delivery {
+    font-size: 14px;
+    color: #ff6363;
+}
+.checkout-totalAmount-wrapper {
+    font-size: 14px;
+}
+.checkout-addToCart-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.checkout-addToCart-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    font-size: 12px;
+    background-color: #ff6363;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.checkout-addToCart-button:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.checkout-addToCart-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.checkout-addToCart-button-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    font-size: 20px;
+}
+.checkout-poweredBy {
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+    color: #00000066;
+    text-align: right;
+}
